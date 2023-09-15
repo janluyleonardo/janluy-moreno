@@ -1,0 +1,47 @@
+.bg-nav {
+ background-color: rgba(13, 110, 253, 1);
+ box-shadow: 1px 1px 5px #000;
+}
+
+.nav-link {
+ color: #ffffff !important;
+}
+
+.nav-link:hover {
+ color: #ffffff !important;
+ text-shadow: 1px 1px 2px rgb(0, 0, 0) !important;
+ border-bottom: #000 3px solid !important;
+ border-top: rgb(4, 27, 63) 0.1px solid !important;
+ border-radius: 25px !important;
+ cursor: pointer !important;
+}
+
+.subtitle-item {
+ z-index: 1;
+ background-color: rgba(13, 110, 253, 1);
+ text-align: center;
+ color: #ffffff;
+ border-radius: 0 0 100% 100%;
+ box-shadow: 0px 5px 2px 1px rgba(0, 0, 0, 0.5);
+ /* box-shadow: 0px 0px 5px #000; */
+ animation-duration: 3s;
+ animation-name: slidein;
+}
+
+@keyframes slidein {
+ from {
+  margin-left: 100%;
+  width: 100%;
+ }
+
+ 50% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 50%;
+ }
+
+ to {
+  margin-left: 0%;
+  width: 17.5%;
+ }
+}
