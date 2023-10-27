@@ -1,9 +1,10 @@
+@import url("colors.css");
 @import url("icons.css");
 @import url("navbar.css");
 @import url("bootstrap.css");
 
 .img {
- filter: drop-shadow(0px 0px 15px #000000);
+filter: drop-shadow(0px 0px 15px var(--drop-shadow));
 }
 
 .parrafo {
@@ -12,7 +13,7 @@
  padding: 20px 20px;
  font-size: 15px;
  line-height: 1.5;
- background: #ffffff17;
+ background: var(--bg-white-10);
  border-radius: 5px;
  text-align: justify;
 }
@@ -24,27 +25,11 @@
  margin-left: 15px;
 }
 
-/* .social-icons {
- align-items: center;
- text-align: center;
-} */
-
 .social-icon-item {
- /* filter: drop-shadow(2px 2px 5px #000000); */
- /* color: rgba(13, 110, 253, 1); */
  font-size: 50px;
 }
 
 /* icon social media styles */
-/* * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-} */
-
-/* body {
- background-color: black;
-} */
 
 .center {
  display: flex;
@@ -58,55 +43,54 @@
 }
 
 .icon {
- width: 65px;
- height: 65px;
- margin: 20px;
+ width: 50px;
+  height: 50px;
+  margin: 10px;
  cursor: pointer;
  border-radius: 50px;
- transition: all .8s;
-}
-
-.icon:nth-child(1):hover {
- box-shadow: 0px 0px 0px 10px #1877f2;
-}
-
-.icon:nth-child(2):hover {
- box-shadow: 0px 0px 0px 10px #c32aa3;
-}
-
-.icon:nth-child(3):hover {
- box-shadow: 0px 0px 0px 10px #25d366;
-}
-
-.icon:nth-child(4):hover {
- box-shadow: 0px 0px 0px 10px #1da1f2;
-}
-
-.icon:nth-child(5):hover {
- box-shadow: 0px 0px 0px 10px #232324;
+ transition: all 0.8s;
 }
 
 .bi-facebook {
- color: #1877f2;
- filter: drop-shadow(0px 0px 10px #1877f2);
+ color: var(--blue-facebook);
+ filter: drop-shadow(0px 0px 10px var(--blue-facebook));
+}
+.icon:nth-child(1):hover {
+box-shadow: 0px 0px 0px 10px var(--blue-facebook);
 }
 
 .bi-instagram {
- color: #c32aa3;
- filter: drop-shadow(0px 0px 10px #c32aa3);
+ color: var(--purple-instagram);
+ filter: drop-shadow(0px 0px 10px var(--purple-instagram));
+}
+
+.icon:nth-child(2):hover {
+ box-shadow: 0px 0px 0px 10px var(--purple-instagram);
 }
 
 .bi-whatsapp {
- color: #25d366;
- filter: drop-shadow(0px 0px 10px #25d366);
+ color: var(--green-whatsapp);
+ filter: drop-shadow(0px 0px 10px var(--green-whatsapp));
+}
+
+.icon:nth-child(3):hover {
+ box-shadow: 0px 0px 0px 10px var(--green-whatsapp);
 }
 
 .bi-twitter {
- color: #1da1f2;
- filter: drop-shadow(0px 0px 10px #1da1f2);
+ color: var(--blue-twitter);
+ filter: drop-shadow(0px 0px 10px var(--blue-twitter));
+}
+
+.icon:nth-child(4):hover {
+ box-shadow: 0px 0px 0px 10px var(--blue-twitter);
 }
 
 .bi-github {
- color: #232324;
- filter: drop-shadow(0px 0px 10px #232324);
+ color: var(--black-github);
+ filter: drop-shadow(0px 0px 10px var(--black-github));
+}
+
+.icon:nth-child(5):hover {
+ box-shadow: 0px 0px 0px 10px var(--black-github);
 }
