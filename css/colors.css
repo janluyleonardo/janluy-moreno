@@ -1,0 +1,33 @@
+:root {
+ /* -----background white----- */
+ --bg-white-10: #ffffff10;
+ --bg-white-20: #ffffff20;
+ --bg-white-30: #ffffff30;
+ --bg-white-40: #ffffff40;
+ --bg-white-50: #ffffff50;
+ --bg-white-60: #ffffff60;
+ --bg-white-70: #ffffff70;
+ --bg-white-80: #ffffff80;
+ --bg-white-90: #ffffff90;
+ --bg-white-100: #ffffff;
+ /* -----background black----- */
+ --bg-black-10: #00000010;
+ --bg-black-20: #00000020;
+ --bg-black-30: #00000030;
+ --bg-black-40: #00000040;
+ --bg-black-50: #00000050;
+ --bg-black-60: #00000060;
+ --bg-black-70: #00000070;
+ --bg-black-80: #00000080;
+ --bg-black-90: #00000090;
+ --bg-black-100: #000000;
+ /* ----- general colors ----- */
+ --drop-shadow: #000000;
+ --blue-facebook: #1877f2;
+ --purple-instagram: #c32aa3;
+ --green-whatsapp: #25d366;
+ --blue-twitter: #1da1f2;
+ --black-github: #232324;
+ --blue-navbar-rgb: rgba(13, 110, 253, 1);
+ --blue-navbar: #0d6efd;
+}
